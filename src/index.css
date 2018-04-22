@@ -1,0 +1,56 @@
+body{
+  color:Red;
+  width: 80%;
+  margin: 0 auto;
+  background: black;
+  font:400 14px CoreSans, Arial, sans-serif;
+}
+
+a{
+  color:green;
+  font-weight: bold;margin-right: 10px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.items-wrper button{
+  background: #fff;
+  color:#000;
+  padding: 3px 10px;
+
+}
+.items-wrper {
+  border:1px dotted #ccc;
+  padding:10px;
+margin:4px 0px; 
+}
+li{
+  list-style: none;
+  padding:0;
+  margin:0;
+  }
+
+input{
+  padding:10px;
+  border-radius: 5px;
+  outline:none;
+  margin-right:10px;
+  border:1px solid yellowgreen;
+}
+
+button{
+  padding:10px;
+  border-radius:5px;
+  border: 1px solid #dddddd;
+background: transparent;
+color: #808080;
+cursor: pointer;
+}
+
+button:hover {
+  color: #222;
+  }
+  *:focus {
+  outline: none;
+  }
